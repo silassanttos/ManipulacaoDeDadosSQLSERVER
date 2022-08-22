@@ -1,3 +1,3 @@
 # ManipulacaoDeDadosSQLSERVER
 
-![image](https://user-images.githubusercontent.com/69328711/185820964-e072caea-367d-4482-81be-28e222189aa5.png)
+![image](https://user-images.githubusercontent.com/69328711/185820998-899d7dae-47b4-49ec-b358-1b78d71da7e4.png)
