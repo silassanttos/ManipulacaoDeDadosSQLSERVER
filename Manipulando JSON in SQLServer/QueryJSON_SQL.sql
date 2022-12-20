@@ -38,7 +38,11 @@ set @json = N'[
               Quantity int          '$.Item.Quantity' 
  )
 
- 
+ /*
+Number		Date				Customer		Quantity
+SO43659		2011-05-31 00:00:00.000		AW29825			1
+SO43661		2011-06-01 00:00:00.000		AW73565			3
+ */
 
  SELECT nome, surname as 'Sobrenome', age as 'Idade'
 FROM OPENJSON('{"name":"John","surname":"Doe","age":45}')
@@ -47,3 +51,9 @@ with (
 	surname   varchar(200) '$.surname',
 	age int	'$.age'
 )
+
+
+/*
+nome	Sobrenome	Idade
+John	Doe		45
+*/
